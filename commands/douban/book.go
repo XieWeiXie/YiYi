@@ -37,15 +37,15 @@ func getFlagSearch() []cli.Flag {
 func SubBookCommand() []cli.Command {
 	return []cli.Command{
 		{
-			Name:   "All",
+			Name:   "all",
 			Action: actionBookNumber,
 		},
 		{
-			Name:   "Detail",
+			Name:   "detail",
 			Action: actionBookDetail,
 		},
 		{
-			Name:        "Search",
+			Name:        "search",
 			Flags:       getFlagSearch(),
 			Subcommands: subCommandBookSearch(),
 		},

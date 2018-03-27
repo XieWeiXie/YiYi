@@ -24,19 +24,19 @@ var MovieUsage = "get movie info for DouBan API"
 func SubMovieCommand() []cli.Command {
 	return []cli.Command{
 		{
-			Name:   "Now",
+			Name:   "now",
 			Action: actionNowInTheaters,
 		},
 		{
-			Name:   "Detail",
+			Name:   "detail",
 			Action: actionDetail,
 		},
 		{
-			Name:   "Future",
+			Name:   "future",
 			Action: actionFuture,
 		},
 		{
-			Name:   "Top",
+			Name:   "top",
 			Action: actionTop,
 		},
 	}

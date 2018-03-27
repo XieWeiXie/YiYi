@@ -23,15 +23,15 @@ var StoryUsage = "get story info from One API"
 func SubStoryCommand() []cli.Command {
 	return []cli.Command{
 		{
-			Name:   "IdList",
+			Name:   "id-list",
 			Action: actionIDList,
 		},
 		{
-			Name:        "OneList",
+			Name:        "one-list",
 			Subcommands: subCommandOneList(),
 		},
 		{
-			Name:        "Detail",
+			Name:        "detail",
 			Subcommands: subCommandOneDetail(),
 		},
 	}
