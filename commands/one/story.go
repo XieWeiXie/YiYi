@@ -1,12 +1,12 @@
 package one
 
 import (
-	"demo_for_golang/demo-for-cli/domain/httpclient"
-	"demo_for_golang/demo-for-cli/utils"
+	"YiYi/domain/httpclient"
+	"YiYi/utils"
 
 	"fmt"
 
-	"demo_for_golang/demo-for-cli/objects"
+	"YiYi/objects"
 
 	"github.com/tidwall/gjson"
 	"github.com/urfave/cli"

@@ -1,8 +1,8 @@
 package douban
 
 import (
-	"demo_for_golang/demo-for-cli/objects"
-	"demo_for_golang/demo-for-cli/utils"
+	"YiYi/objects"
+	"YiYi/utils"
 
 	"fmt"
 

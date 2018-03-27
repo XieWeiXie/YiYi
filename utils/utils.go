@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"demo_for_golang/demo-for-cli/domain/httpclient"
+	"YiYi/domain/httpclient"
 	"fmt"
 	"strings"
 
@@ -20,7 +20,7 @@ func Response(url string, key string) gjson.Result {
 	var newClient httpclient.HttpClient
 	newClient = httpclient.Implement{}
 	resp, err := newClient.Get(url)
-	fmt.Println(url)
+	//fmt.Println(url)
 	if err != nil {
 		fmt.Println("Get HTTP Response Failed")
 		return gjson.Result{}

@@ -1,10 +1,10 @@
 package douban
 
 import (
-	"demo_for_golang/demo-for-cli/utils"
+	"YiYi/utils"
 	"fmt"
 
-	"demo_for_golang/demo-for-cli/objects"
+	"YiYi/objects"
 
 	"math/rand"
 	"strconv"
@@ -79,7 +79,7 @@ func actionBookDetail(c *cli.Context) {
 }
 func actionQuery(c *cli.Context) {
 	if c.NArg() == 1 {
-		fmt.Println(c.String("count"))
+		//fmt.Println(c.String("count"))
 		url := fmt.Sprintf(bookSearchByQuery, c.Args().Get(0), strconv.Itoa(c.Int("count")))
 		getBookSearch(url)
 	}
