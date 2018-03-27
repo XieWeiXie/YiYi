@@ -1,6 +1,12 @@
 # YiYi
 A cli command tool for reader from DouBan and One App API.
 
+![](https://img.shields.io/badge/YiYi-v0.0.1-519dd9.svg)
+![](https://img.shields.io/badge/language-golang-orange.svg)
+[![](https://img.shields.io/badge/weibo-@谢小小路-red.svg)](https://weibo.com/1948244870/profile?topnav=1&wvr=6)
+[![](https://img.shields.io/badge/jianshu-@谢小路-F59581.svg)](https://www.jianshu.com/u/58f0817209aa)
+
+
 
 ### API
 
