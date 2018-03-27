@@ -99,7 +99,7 @@ AUTHOR:
 COMMANDS:
      book     get book info from DouBan API
      story    get story info from One API
-     movie    get movie info for DouBan API
+     movie    get movie info from DouBan API
      help, h  Shows a list of commands or help for one command
 
 GLOBAL OPTIONS:
