@@ -19,7 +19,7 @@ const (
 	MovieTop250     = "http://api.douban.com/v2/movie/top250"
 )
 
-var MovieUsage = "get movie info for DouBan API"
+var MovieUsage = "get movie info from DouBan API"
 
 func SubMovieCommand() []cli.Command {
 	return []cli.Command{
