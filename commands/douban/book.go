@@ -37,7 +37,7 @@ func getFlagSearch() []cli.Flag {
 func SubBookCommand() []cli.Command {
 	return []cli.Command{
 		{
-			Name:   "all",
+			Name:   "random",
 			Action: actionBookNumber,
 		},
 		{
