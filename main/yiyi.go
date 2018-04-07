@@ -70,8 +70,8 @@ func main() {
 	app.Author = Author
 	app.Email = Email
 	app.CommandNotFound = func(context *cli.Context, command string) {
-		fmt.Printf("[[WARNING] Not Found Command: %s\n", command)
-		fmt.Printf("[MESSAGE] Please Type: Reader --help")
+		fmt.Printf("[WARNING] Not Found Command: %s\n", command)
+		fmt.Printf("[MESSAGE] Please Type: YiYi --help")
 	}
 	app.Commands = reader.Commands()
 	app.Run(os.Args)
